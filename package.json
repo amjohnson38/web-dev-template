@@ -15,5 +15,8 @@
     "jquery"
   ],
   "author": "Angela Johnson",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-connect": "^4.0.0"
+  }
 }
