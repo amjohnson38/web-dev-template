@@ -1,3 +1,3 @@
-$(Document).ready(function(){
- // initalization code here   
+$("#red").click(function(){
+    
 });
