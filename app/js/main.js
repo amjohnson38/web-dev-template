@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(document).ready(() => {
 
     $('#search-form').on('submit', (e) => {
@@ -90,3 +91,8 @@ sr.reveal('.jumbotron', {
     duration: 2000,
     origin: 'top'
 });
+=======
+$("#red").click(function(){
+    
+});
+>>>>>>> 87ab858706d1ee75d01a0f79340905f696d491b1
