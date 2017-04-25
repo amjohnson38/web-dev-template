@@ -2,20 +2,50 @@
 <html>
 
 <head>
-    <!-- css section -->
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!--css section-->
+    <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://bootswatch.com/united/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
-    
-    <!--external javascript libraries-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment-with-locales.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
+    <!--external javascript libraries-->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <!--meta section -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Place Title Here</title>
+    <meta name="description" content="angiemjohnson portfolio site">
+    <meta name="keywords" content="web design, front-end development, front-end developer, front end developer website, web development, HTML5, CSS3, JavaScript, jQuery">
+    <meta name="author" content="Angela Johnson">
+    <title>Movie Info Grabber</title>
 </head>
 
 <body>
+    <div id="background-image">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html"><i class="fa fa-film"><strong> Movie Info Grabber </strong></i></a>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="jumbotron">
+                <h3 class="text-center">Search Film Database</h3>
+                <form id="search-form" class="icon-addon addon-sm">
+                    <input type="text" class="form-control" id="search-text" placeholder="Search movies...">
+                    <label for="search" class="glyphicon glyphicon-search" rel="tooltip" title="search movie"></label>
+                </form>
+            </div>
+        </div>
+        <div class="container">
+            <div id="movies" class="row"></div>
+
+        </div>
+    </div>
 </body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="./js/main.js"></script>
+
 </html>
